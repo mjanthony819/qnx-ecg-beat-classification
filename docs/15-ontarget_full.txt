@@ -1,0 +1,281 @@
+QNX ECG beat classification research demo - replaying 2600 beats (360 Hz) [fast]
+beat   time   annotation             prediction             ok?    infer us  
+0      0.6    V (ventricular)        V (ventricular)               2339.5    
+1      1.4    N (normal)             N (normal)                    1922.0    
+2      1.9    V (ventricular)        V (ventricular)               1794.8    
+3      2.7    N (normal)             N (normal)                    2028.5    
+4      3.2    V (ventricular)        V (ventricular)               2252.0    
+5      4.0    N (normal)             N (normal)                    1872.9    
+6      4.5    V (ventricular)        V (ventricular)               1820.5    
+7      5.2    N (normal)             N (normal)                    1806.6    
+8      5.8    V (ventricular)        V (ventricular)               1799.6    
+9      6.5    N (normal)             N (normal)                    1881.6    
+10     7.0    V (ventricular)        V (ventricular)               1799.5    
+11     7.7    N (normal)             N (normal)                    1864.0    
+12     8.3    V (ventricular)        V (ventricular)               2126.2    
+13     9.2    N (normal)             N (normal)                    1952.0    
+14     9.7    V (ventricular)        V (ventricular)               1736.7    
+15     10.4   N (normal)             N (normal)                    1882.3    
+16     11.0   N (normal)             N (normal)                    1821.5    
+17     11.7   N (normal)             N (normal)                    1883.2    
+18     12.3   N (normal)             N (normal)                    2085.9    
+19     12.9   N (normal)             N (normal)                    1923.7    
+20     13.6   N (normal)             N (normal)                    1866.6    
+21     14.3   N (normal)             N (normal)                    1872.8    
+22     14.9   N (normal)             N (normal)                    1799.1    
+23     15.6   N (normal)             N (normal)                    1866.2    
+24     16.2   N (normal)             N (normal)                    1773.8    
+25     16.9   N (normal)             N (normal)                    2237.9    
+26     17.5   V (ventricular)        V (ventricular)               1778.4    
+27     18.2   N (normal)             N (normal)                    1830.0    
+28     18.7   V (ventricular)        V (ventricular)               1709.9    
+29     19.7   N (normal)             N (normal)                    1788.9    
+33     22.4   V (ventricular)        S (supraventricular)   MISS   1781.6    
+52     35.8   V (ventricular)        S (supraventricular)   MISS   1790.2    
+78     54.5   V (ventricular)        F (fusion)             MISS   1762.7    
+84     58.7   V (ventricular)        S (supraventricular)   MISS   1784.2    
+104    72.2   V (ventricular)        N (normal)             MISS   1812.3    
+112    78.3   V (ventricular)        S (supraventricular)   MISS   1776.6    
+120    84.1   V (ventricular)        S (supraventricular)   MISS   1834.2    
+152    107.8  V (ventricular)        S (supraventricular)   MISS   1806.3    
+155    109.7  V (ventricular)        S (supraventricular)   MISS   1897.4    
+162    114.9  V (ventricular)        S (supraventricular)   MISS   1714.5    
+200    142.9  N (normal)             N (normal)                    1832.3    
+248    176.8  V (ventricular)        S (supraventricular)   MISS   1895.7    
+251    178.9  V (ventricular)        S (supraventricular)   MISS   1808.6    
+256    182.3  V (ventricular)        S (supraventricular)   MISS   1791.9    
+258    183.8  V (ventricular)        S (supraventricular)   MISS   1784.6    
+262    186.5  V (ventricular)        S (supraventricular)   MISS   1727.0    
+264    188.0  V (ventricular)        S (supraventricular)   MISS   1793.8    
+266    189.4  V (ventricular)        S (supraventricular)   MISS   1761.1    
+268    190.8  V (ventricular)        S (supraventricular)   MISS   1876.6    
+270    192.3  V (ventricular)        S (supraventricular)   MISS   1810.0    
+276    196.7  V (ventricular)        S (supraventricular)   MISS   1861.0    
+278    197.9  V (ventricular)        S (supraventricular)   MISS   1882.8    
+295    209.8  S (supraventricular)   N (normal)             MISS   1926.1    
+303    215.5  V (ventricular)        N (normal)             MISS   1839.9    
+307    218.2  V (ventricular)        S (supraventricular)   MISS   1783.5    
+324    229.9  V (ventricular)        N (normal)             MISS   2008.8    
+327    232.4  N (normal)             S (supraventricular)   MISS   2007.9    
+328    233.1  N (normal)             S (supraventricular)   MISS   1865.7    
+330    234.3  N (normal)             V (ventricular)        MISS   1860.4    
+337    238.8  S (supraventricular)   N (normal)             MISS   1844.6    
+343    242.6  V (ventricular)        S (supraventricular)   MISS   1821.2    
+345    244.0  V (ventricular)        S (supraventricular)   MISS   1712.9    
+355    250.6  N (normal)             S (supraventricular)   MISS   1948.0    
+381    267.6  V (ventricular)        N (normal)             MISS   1901.2    
+397    277.8  V (ventricular)        S (supraventricular)   MISS   1927.8    
+400    279.9  N (normal)             N (normal)                    1847.8    
+403    281.6  V (ventricular)        S (supraventricular)   MISS   1765.6    
+412    287.4  N (normal)             S (supraventricular)   MISS   1822.2    
+413    287.9  N (normal)             S (supraventricular)   MISS   1841.8    
+425    295.2  V (ventricular)        N (normal)             MISS   1816.5    
+428    297.3  N (normal)             S (supraventricular)   MISS   1874.6    
+442    305.9  N (normal)             S (supraventricular)   MISS   1861.2    
+445    307.6  V (ventricular)        S (supraventricular)   MISS   1844.5    
+460    316.9  N (normal)             S (supraventricular)   MISS   1899.6    
+462    318.1  N (normal)             S (supraventricular)   MISS   1874.5    
+463    318.7  N (normal)             S (supraventricular)   MISS   1936.3    
+471    323.4  V (ventricular)        S (supraventricular)   MISS   1854.1    
+510    347.8  N (normal)             S (supraventricular)   MISS   1932.0    
+517    352.4  V (ventricular)        N (normal)             MISS   1894.8    
+522    355.6  N (normal)             S (supraventricular)   MISS   1885.5    
+543    369.2  N (normal)             S (supraventricular)   MISS   1871.4    
+544    369.7  V (ventricular)        S (supraventricular)   MISS   1921.7    
+578    392.3  V (ventricular)        N (normal)             MISS   1966.4    
+582    395.1  V (ventricular)        S (supraventricular)   MISS   1770.4    
+589    400.0  V (ventricular)        N (normal)             MISS   1853.3    
+591    401.6  V (ventricular)        S (supraventricular)   MISS   1750.4    
+598    406.8  V (ventricular)        S (supraventricular)   MISS   1881.2    
+600    408.2  V (ventricular)        S (supraventricular)   MISS   1686.9    
+626    425.9  S (supraventricular)   N (normal)             MISS   1839.5    
+652    444.2  V (ventricular)        F (fusion)             MISS   1856.5    
+655    446.4  S (supraventricular)   N (normal)             MISS   1864.3    
+656    447.0  V (ventricular)        F (fusion)             MISS   1849.6    
+658    448.8  V (ventricular)        S (supraventricular)   MISS   1848.8    
+667    455.3  V (ventricular)        S (supraventricular)   MISS   1840.4    
+682    466.0  V (ventricular)        N (normal)             MISS   1802.0    
+688    470.0  V (ventricular)        S (supraventricular)   MISS   1810.5    
+689    470.5  V (ventricular)        S (supraventricular)   MISS   1893.5    
+691    472.0  V (ventricular)        N (normal)             MISS   1823.2    
+701    479.2  V (ventricular)        S (supraventricular)   MISS   1744.3    
+739    506.9  V (ventricular)        S (supraventricular)   MISS   1824.2    
+757    519.4  S (supraventricular)   N (normal)             MISS   1790.5    
+761    522.3  V (ventricular)        S (supraventricular)   MISS   1866.7    
+800    551.5  N (normal)             N (normal)                    1889.3    
+818    564.3  V (ventricular)        S (supraventricular)   MISS   1815.0    
+837    577.5  V (ventricular)        F (fusion)             MISS   1811.4    
+853    588.5  V (ventricular)        S (supraventricular)   MISS   1768.2    
+874    603.6  V (ventricular)        S (supraventricular)   MISS   1864.2    
+875    604.1  V (ventricular)        N (normal)             MISS   1738.3    
+880    608.0  F (fusion)             N (normal)             MISS   1854.8    
+883    610.2  N (normal)             S (supraventricular)   MISS   1795.4    
+885    611.5  N (normal)             S (supraventricular)   MISS   2035.4    
+886    612.0  V (ventricular)        S (supraventricular)   MISS   1948.6    
+892    616.3  V (ventricular)        S (supraventricular)   MISS   1797.2    
+901    622.7  N (normal)             S (supraventricular)   MISS   1849.7    
+908    627.5  S (supraventricular)   N (normal)             MISS   1853.9    
+914    631.1  V (ventricular)        N (normal)             MISS   1906.5    
+915    632.3  N (normal)             S (supraventricular)   MISS   1886.7    
+918    634.5  V (ventricular)        N (normal)             MISS   1928.5    
+928    641.4  V (ventricular)        N (normal)             MISS   1704.8    
+943    651.2  V (ventricular)        S (supraventricular)   MISS   1862.9    
+962    663.6  V (ventricular)        S (supraventricular)   MISS   1942.1    
+982    676.6  V (ventricular)        S (supraventricular)   MISS   1832.6    
+1000   688.3  V (ventricular)        S (supraventricular)   MISS   1792.6    
+1018   699.7  V (ventricular)        S (supraventricular)   MISS   1728.2    
+1031   708.0  S (supraventricular)   N (normal)             MISS   1825.6    
+1055   724.0  S (supraventricular)   N (normal)             MISS   1885.5    
+1059   726.5  V (ventricular)        S (supraventricular)   MISS   1756.7    
+1067   731.9  V (ventricular)        S (supraventricular)   MISS   1775.9    
+1081   741.4  V (ventricular)        N (normal)             MISS   1848.0    
+1083   742.8  V (ventricular)        S (supraventricular)   MISS   1751.6    
+1087   745.5  S (supraventricular)   N (normal)             MISS   1885.7    
+1091   748.4  V (ventricular)        S (supraventricular)   MISS   1770.7    
+1095   751.1  V (ventricular)        S (supraventricular)   MISS   1817.0    
+1097   752.8  N (normal)             S (supraventricular)   MISS   1895.8    
+1122   769.7  S (supraventricular)   N (normal)             MISS   1898.3    
+1136   779.7  V (ventricular)        F (fusion)             MISS   1701.6    
+1146   786.6  S (supraventricular)   N (normal)             MISS   1992.6    
+1154   791.9  V (ventricular)        S (supraventricular)   MISS   1795.9    
+1169   802.4  N (normal)             S (supraventricular)   MISS   1879.4    
+1173   804.6  V (ventricular)        S (supraventricular)   MISS   1886.3    
+1187   814.3  V (ventricular)        S (supraventricular)   MISS   1809.7    
+1200   822.7  N (normal)             N (normal)                    1849.1    
+1207   827.2  V (ventricular)        S (supraventricular)   MISS   1766.3    
+1212   830.5  V (ventricular)        F (fusion)             MISS   1852.1    
+1215   832.4  N (normal)             S (supraventricular)   MISS   1850.9    
+1257   857.7  N (normal)             S (supraventricular)   MISS   1865.8    
+1284   873.8  N (normal)             S (supraventricular)   MISS   1825.6    
+1365   923.9  V (ventricular)        S (supraventricular)   MISS   1770.2    
+1398   945.7  V (ventricular)        S (supraventricular)   MISS   1819.5    
+1399   946.1  V (ventricular)        N (normal)             MISS   1888.0    
+1400   947.1  V (ventricular)        V (ventricular)               1836.3    
+1438   972.1  V (ventricular)        S (supraventricular)   MISS   1832.9    
+1440   973.5  S (supraventricular)   N (normal)             MISS   1944.0    
+1444   976.1  V (ventricular)        S (supraventricular)   MISS   1822.0    
+1449   979.5  V (ventricular)        F (fusion)             MISS   1861.7    
+1464   989.9  N (normal)             S (supraventricular)   MISS   1841.2    
+1467   991.8  V (ventricular)        S (supraventricular)   MISS   1798.5    
+1469   993.3  V (ventricular)        S (supraventricular)   MISS   1790.3    
+1492   1009.0 V (ventricular)        S (supraventricular)   MISS   1861.6    
+1514   1024.0 V (ventricular)        S (supraventricular)   MISS   1839.6    
+1542   1044.1 S (supraventricular)   N (normal)             MISS   1824.3    
+1563   1060.3 V (ventricular)        S (supraventricular)   MISS   1826.7    
+1578   1071.3 V (ventricular)        S (supraventricular)   MISS   1871.2    
+1579   1071.9 F (fusion)             S (supraventricular)   MISS   1869.9    
+1600   1086.9 N (normal)             N (normal)                    1768.4    
+1614   1097.0 V (ventricular)        S (supraventricular)   MISS   1798.7    
+1616   1098.8 V (ventricular)        S (supraventricular)   MISS   1802.1    
+1632   1110.4 V (ventricular)        S (supraventricular)   MISS   1794.7    
+1662   1132.4 V (ventricular)        S (supraventricular)   MISS   1776.7    
+1672   1139.4 V (ventricular)        S (supraventricular)   MISS   1833.6    
+1681   1145.9 N (normal)             S (supraventricular)   MISS   1849.1    
+1687   1149.9 V (ventricular)        S (supraventricular)   MISS   1860.4    
+1701   1159.7 V (ventricular)        N (normal)             MISS   1809.9    
+1718   1172.6 V (ventricular)        S (supraventricular)   MISS   1790.1    
+1721   1174.7 V (ventricular)        S (supraventricular)   MISS   1852.3    
+1734   1183.9 V (ventricular)        S (supraventricular)   MISS   1909.1    
+1755   1198.8 V (ventricular)        S (supraventricular)   MISS   1824.9    
+1771   1210.3 V (ventricular)        S (supraventricular)   MISS   1734.8    
+1777   1214.4 V (ventricular)        F (fusion)             MISS   1805.1    
+1783   1218.5 V (ventricular)        S (supraventricular)   MISS   1825.9    
+1800   1230.5 N (normal)             N (normal)                    1858.9    
+1837   1255.8 V (ventricular)        N (normal)             MISS   1888.4    
+1851   1265.4 V (ventricular)        S (supraventricular)   MISS   1819.5    
+1857   1269.8 V (ventricular)        S (supraventricular)   MISS   1810.2    
+1870   1278.7 V (ventricular)        S (supraventricular)   MISS   1823.1    
+1872   1280.6 V (ventricular)        N (normal)             MISS   1862.5    
+1878   1285.0 V (ventricular)        F (fusion)             MISS   1809.3    
+1883   1288.3 V (ventricular)        N (normal)             MISS   1790.3    
+1909   1306.1 V (ventricular)        S (supraventricular)   MISS   1794.6    
+1921   1314.2 V (ventricular)        S (supraventricular)   MISS   1801.5    
+1929   1319.8 V (ventricular)        S (supraventricular)   MISS   1814.3    
+1935   1324.3 S (supraventricular)   N (normal)             MISS   1862.6    
+1943   1329.9 V (ventricular)        S (supraventricular)   MISS   1772.0    
+1945   1331.4 V (ventricular)        S (supraventricular)   MISS   1757.4    
+1948   1333.3 V (ventricular)        S (supraventricular)   MISS   1831.0    
+1968   1348.2 V (ventricular)        S (supraventricular)   MISS   2440.9    
+1981   1357.2 S (supraventricular)   N (normal)             MISS   1808.6    
+1987   1361.3 V (ventricular)        S (supraventricular)   MISS   1787.0    
+2000   1370.5 N (normal)             N (normal)                    1714.8    
+2020   1383.6 V (ventricular)        N (normal)             MISS   1812.7    
+2022   1385.2 V (ventricular)        S (supraventricular)   MISS   1710.0    
+2065   1414.4 V (ventricular)        F (fusion)             MISS   1831.1    
+2066   1415.3 V (ventricular)        N (normal)             MISS   1773.5    
+2078   1422.8 V (ventricular)        S (supraventricular)   MISS   1876.4    
+2094   1433.6 V (ventricular)        S (supraventricular)   MISS   1842.5    
+2130   1458.3 V (ventricular)        S (supraventricular)   MISS   1815.4    
+2138   1463.7 V (ventricular)        S (supraventricular)   MISS   1820.0    
+2144   1467.8 V (ventricular)        S (supraventricular)   MISS   1774.7    
+2156   1475.7 V (ventricular)        S (supraventricular)   MISS   1844.4    
+2180   1491.8 S (supraventricular)   N (normal)             MISS   1874.4    
+2186   1495.6 V (ventricular)        N (normal)             MISS   1806.6    
+2200   1505.5 V (ventricular)        S (supraventricular)   MISS   1800.4    
+2207   1510.5 S (supraventricular)   N (normal)             MISS   1806.8    
+2213   1514.8 V (ventricular)        S (supraventricular)   MISS   1855.0    
+2223   1522.5 N (normal)             S (supraventricular)   MISS   1831.8    
+2224   1523.0 S (supraventricular)   N (normal)             MISS   1923.3    
+2225   1523.7 S (supraventricular)   N (normal)             MISS   1825.9    
+2228   1525.8 V (ventricular)        S (supraventricular)   MISS   1889.5    
+2230   1527.6 V (ventricular)        S (supraventricular)   MISS   1868.2    
+2233   1529.9 V (ventricular)        S (supraventricular)   MISS   1810.8    
+2238   1533.8 V (ventricular)        S (supraventricular)   MISS   1828.8    
+2243   1537.0 V (ventricular)        S (supraventricular)   MISS   1826.5    
+2247   1540.1 V (ventricular)        S (supraventricular)   MISS   1780.9    
+2249   1541.4 V (ventricular)        S (supraventricular)   MISS   1793.3    
+2251   1542.9 V (ventricular)        S (supraventricular)   MISS   1808.4    
+2268   1555.3 V (ventricular)        S (supraventricular)   MISS   1845.4    
+2275   1560.6 V (ventricular)        S (supraventricular)   MISS   1818.2    
+2288   1570.9 S (supraventricular)   N (normal)             MISS   1913.7    
+2290   1572.4 V (ventricular)        S (supraventricular)   MISS   1831.9    
+2308   1586.0 V (ventricular)        F (fusion)             MISS   1783.0    
+2312   1588.8 V (ventricular)        S (supraventricular)   MISS   1851.8    
+2320   1594.6 V (ventricular)        S (supraventricular)   MISS   1815.7    
+2332   1603.4 S (supraventricular)   N (normal)             MISS   1865.6    
+2336   1606.6 V (ventricular)        S (supraventricular)   MISS   1743.7    
+2338   1608.1 V (ventricular)        S (supraventricular)   MISS   1783.7    
+2352   1618.7 S (supraventricular)   N (normal)             MISS   1839.1    
+2354   1620.2 V (ventricular)        S (supraventricular)   MISS   2115.0    
+2359   1624.3 V (ventricular)        N (normal)             MISS   1848.8    
+2366   1629.9 V (ventricular)        N (normal)             MISS   1820.7    
+2367   1630.4 V (ventricular)        S (supraventricular)   MISS   1751.8    
+2370   1632.9 N (normal)             S (supraventricular)   MISS   1882.6    
+2371   1633.4 V (ventricular)        S (supraventricular)   MISS   1780.6    
+2382   1641.5 S (supraventricular)   N (normal)             MISS   1807.4    
+2384   1643.0 V (ventricular)        S (supraventricular)   MISS   1802.9    
+2386   1644.5 V (ventricular)        S (supraventricular)   MISS   1769.7    
+2400   1655.0 N (normal)             N (normal)                    1920.3    
+2403   1657.0 S (supraventricular)   N (normal)             MISS   1812.5    
+2407   1660.2 V (ventricular)        S (supraventricular)   MISS   1843.5    
+2414   1665.9 V (ventricular)        N (normal)             MISS   1844.1    
+2424   1673.5 S (supraventricular)   N (normal)             MISS   1885.6    
+2431   1678.9 V (ventricular)        S (supraventricular)   MISS   1795.2    
+2452   1695.3 V (ventricular)        S (supraventricular)   MISS   1848.5    
+2470   1708.9 V (ventricular)        S (supraventricular)   MISS   1821.6    
+2473   1711.2 V (ventricular)        N (normal)             MISS   1802.8    
+2476   1713.4 V (ventricular)        N (normal)             MISS   1853.2    
+2482   1717.4 V (ventricular)        N (normal)             MISS   1823.4    
+2493   1725.5 S (supraventricular)   N (normal)             MISS   1855.4    
+2503   1733.1 V (ventricular)        S (supraventricular)   MISS   1793.1    
+2511   1739.2 V (ventricular)        S (supraventricular)   MISS   1824.2    
+2513   1740.8 V (ventricular)        S (supraventricular)   MISS   1839.6    
+2517   1744.0 S (supraventricular)   N (normal)             MISS   1869.6    
+2525   1749.9 V (ventricular)        S (supraventricular)   MISS   1734.8    
+2527   1751.3 V (ventricular)        S (supraventricular)   MISS   1899.4    
+2542   1762.1 S (supraventricular)   N (normal)             MISS   1711.4    
+2550   1768.6 V (ventricular)        N (normal)             MISS   1853.7    
+2554   1771.5 V (ventricular)        S (supraventricular)   MISS   1839.5    
+2568   1781.9 V (ventricular)        S (supraventricular)   MISS   1773.7    
+2590   1798.1 V (ventricular)        S (supraventricular)   MISS   1771.6    
+2592   1799.2 V (ventricular)        S (supraventricular)   MISS   1797.9    
+
+=== summary ===
+beats: 2600  correct: 2370 (91.2%)
+  N (normal): 1715/1742 (98.5%)
+  S (supraventricular): 2/30 (6.7%)
+  V (ventricular): 653/826 (79.1%)
+  F (fusion): 0/2 (0.0%)
+inference latency: avg 1838.7 us  min 1682.0 us  max 3343.5 us
+Model: MIT-BIH DS1-trained tiny CNN, patient-independent DS2 overall 80.2%, balanced 48.6%, macro-F1 0.40.
+Research demo only - not a medical device, no diagnostic use.
