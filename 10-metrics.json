@@ -1,0 +1,30 @@
+{
+  "val_acc": 0.49367088079452515,
+  "val_balanced": 0.3281041506814974,
+  "ds2_acc": 0.8023461699485779,
+  "ds2_balanced": 0.48632761583116446,
+  "ds2_macro_f1": 0.39882739263524136,
+  "majority_baseline": 0.8902973962734919,
+  "per_class_ds2": {
+    "N": 0.8160059666410523,
+    "S": 0.7506804572672836,
+    "V": 0.7257763975155279,
+    "F": 0.13917525773195877,
+    "Q": 0.0
+  },
+  "logit_bias": [
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "val_records": [
+    "215",
+    "220",
+    "223",
+    "230"
+  ],
+  "protocol": "AAMI EC57 DS1/DS2 patient-disjoint",
+  "dataset": "MIT-BIH Arrhythmia Database (PhysioNet, ODC-BY 1.0)"
+}

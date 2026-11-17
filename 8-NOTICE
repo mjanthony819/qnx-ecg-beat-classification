@@ -1,0 +1,13 @@
+This project uses the MIT-BIH Arrhythmia Database:
+
+Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG,
+Mietus JE, Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and
+PhysioNet: Components of a New Research Resource for Complex Physiologic
+Signals. Circulation 101(23):e215-e220 [Circulation Electronic Pages;
+http://circ.ahajournals.org/content/101/23/e215.full]; 2000 (June 13).
+
+Moody GB, Mark RG. The impact of the MIT-BIH Arrhythmia Database.
+IEEE Eng in Med and Biology 20(3):45-50 (May-June 2001).
+
+Database: https://physionet.org/content/mitdb/1.0.0/ (ODC-BY 1.0,
+https://physionet.org/content/mitdb/view-license/1.0.0/).
