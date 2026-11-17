@@ -32,7 +32,7 @@ a live QNX 8.0 system.
 Deliberately tiny: Conv1d(1->8,k5) MaxPool2, Conv1d(8->16,k5) MaxPool2,
 Conv1d(16->32,k5) MaxPool2, Linear(608->48) ReLU, Linear(48->5). Input is a
 180-sample window (0.5 s at 360 Hz) around each annotated R-peak, per-beat
-z-normalized. No BatchNorm/Dropout so host<->target numerical parity is exact.
+z-normalized. No BatchNorm/Dropout keeps inference a fixed numeric path, which makes exact host<->C parity achievable; parity is verified by the test below, not assumed.
 
 ## Evaluation (honest, exploratory numbers)
 
@@ -69,7 +69,7 @@ Verified on a live QNX SDP 8.0.0 system (QSTI qemu quick-start image, x86_64,
 TCG emulation): `uname -a` -> "QNX qnxqemu 8.0.0 2026/06/05-16:26:03EDT x86pc
 x86_64". The qcc-built binary replayed record 200 (2600 beats) with per-beat
 inference timing via CLOCK_MONOTONIC: 91.2% beat-level agreement (matches the
-host run exactly, as the parity check predicts), avg 1.88 ms/beat in emulation
+host run exactly, as the parity check predicts), avg 1838.7 us/beat (min 1682.0, max 3343.5) in emulation
 (~115 us on the dev host; the difference is emulation overhead, not QNX). This
 is the demo app's own functional timing, not a QNX benchmark. Full captured
 output: docs/ontarget_full.txt; demo video: https://youtu.be/eY4Dd34nXLs (QNX ECG Beat Classification Research Demo - QNX Global Hackathon).
